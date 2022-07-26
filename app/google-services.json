@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49799490700",
+    "project_id": "soins-de-beaut-quotidienne1",
+    "storage_bucket": "soins-de-beaut-quotidienne1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49799490700:android:fd088111264e82d7d89fa9",
+        "android_client_info": {
+          "package_name": "cmr.mesmenj.soinsdebeautquotidienne"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49799490700-86h0bsjo799tc9ibjjgk1gdv5dkpab5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkuaWH16SKVVEpXJ2sHGWEBopHVobH2vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49799490700-86h0bsjo799tc9ibjjgk1gdv5dkpab5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

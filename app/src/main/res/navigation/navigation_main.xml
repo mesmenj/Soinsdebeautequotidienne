@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/homeFragment2">
+
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="cmr.mesmenj.soinsdebeautquotidienne.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_popup1Fragment2"
+            app:destination="@id/popup1Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/popup1Fragment2"
+        android:name="cmr.mesmenj.soinsdebeautquotidienne.Popup1Fragment"
+        android:label="fragment_popup1"
+        tools:layout="@layout/fragment_popup1" >
+        <action
+            android:id="@+id/action_popup1Fragment2_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+        <action
+            android:id="@+id/action_popup1Fragment2_to_popup2"
+            app:destination="@id/popup2" />
+    </fragment>
+    <fragment
+        android:id="@+id/popup2"
+        android:name="cmr.mesmenj.soinsdebeautquotidienne.popup2"
+        android:label="fragment_popup2"
+        tools:layout="@layout/fragment_popup2" >
+        <action
+            android:id="@+id/action_popup2_to_popup1Fragment2"
+            app:destination="@id/popup1Fragment2" />
+    </fragment>
+</navigation>
